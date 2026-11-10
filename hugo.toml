@@ -1,0 +1,8 @@
+baseURL = 'https://kristoisberg.github.io/'
+locale = 'en'
+title = 'WAL of Text'
+timeZone = 'Europe/Tallinn'
+disableKinds = ['taxonomy', 'term']
+
+[caches.images]
+dir = ':cacheDir/images'
