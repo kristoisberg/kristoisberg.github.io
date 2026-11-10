@@ -3,10 +3,14 @@
 }
 
 .header-nav .logo-switches {
-    margin-inline-start: auto;
+    order: 1;
     align-self: center;
     align-items: center;
     min-height: 0;
+}
+
+.header-nav .menu {
+    margin-inline-start: auto;
 }
 
 .theme-toggle {
