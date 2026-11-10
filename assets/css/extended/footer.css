@@ -22,16 +22,13 @@ body {
     margin: 0 auto;
 }
 
-.footer p {
-    display: contents;
-}
-
-.footer p:has(img) {
+.footer ul {
     display: flex;
     justify-content: center;
     flex-basis: 100%;
     order: -1;
     margin: 0 0 0.5rem;
+    list-style: none;
 }
 
 .footer a:has(img) {

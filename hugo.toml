@@ -13,11 +13,10 @@ description = 'Technical writing on WAL of Text. Currently displaying SAMPLE ONL
 
 [params.footer]
 text = '''
-[Tags](/tags/) · [RSS](/index.xml)
-
-[![Email](/icons/email.svg)](mailto:kristo.isberg@gmail.com "Email Kristo Isberg")
-[![GitHub](/icons/github.svg)](https://github.com/kristoisberg "GitHub")
-[![LinkedIn](/icons/linkedin.svg)](https://linkedin.com/in/kristoisberg/ "LinkedIn")
+- [![Email](/icons/email.svg)](mailto:kristo.isberg@gmail.com "Email Kristo Isberg")
+- [![GitHub](/icons/github.svg)](https://github.com/kristoisberg "GitHub")
+- [![LinkedIn](/icons/linkedin.svg)](https://linkedin.com/in/kristoisberg/ "LinkedIn")
+- [![RSS](/icons/rss.svg)](/index.xml "RSS")
 '''
 
 [taxonomies]

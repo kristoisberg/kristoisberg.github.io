@@ -1,0 +1,16 @@
+.header-nav .logo {
+    display: contents;
+}
+
+.header-nav .logo-switches {
+    margin-inline-start: auto;
+    align-self: center;
+    align-items: center;
+    min-height: 0;
+}
+
+.theme-toggle {
+    min-width: 2.75rem;
+    min-height: 2.75rem;
+    justify-content: center;
+}
