@@ -3,7 +3,7 @@
     padding: 2rem 0;
     background: transparent;
     border: 0;
-    border-bottom: 1px solid var(--border);
+    border-bottom: 1px solid var(--tertiary);
     border-radius: 0;
     transition: none;
 }
@@ -12,7 +12,7 @@
 .post-entry:focus-within,
 .post-entry:active {
     transform: none;
-    border-color: var(--border);
+    border-color: var(--tertiary);
 }
 
 .post-entry:last-of-type {
