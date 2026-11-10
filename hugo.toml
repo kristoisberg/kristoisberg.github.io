@@ -3,7 +3,7 @@ locale = 'en'
 title = 'WAL of Text'
 timeZone = 'Europe/Tallinn'
 theme = 'PaperMod'
-summaryLength = 80
+summaryLength = 60
 
 [params]
 mainSections = ['posts']
@@ -11,18 +11,22 @@ defaultTheme = 'auto'
 disableSpecial1stPost = true
 description = 'Technical writing on WAL of Text. Currently displaying SAMPLE ONLY posts for theme testing.'
 
+[params.footer]
+text = '''
+[Tags](/tags/) · [RSS](/index.xml)
+
+[![Email](/icons/email.svg)](mailto:kristo.isberg@gmail.com "Email Kristo Isberg")
+[![GitHub](/icons/github.svg)](https://github.com/kristoisberg "GitHub")
+[![LinkedIn](/icons/linkedin.svg)](https://linkedin.com/in/kristoisberg/ "LinkedIn")
+'''
+
 [taxonomies]
 tag = 'tags'
 
 [[menus.main]]
-name = 'Tags'
-pageRef = '/tags'
+name = 'About'
+pageRef = '/about'
 weight = 10
-
-[[menus.main]]
-name = 'RSS'
-url = '/index.xml'
-weight = 20
 
 [caches.images]
 dir = ':cacheDir/images'

@@ -12,6 +12,10 @@ tags = ['sample-only', 'formatting']
 Here is **bold text**, *italic text*, and `inline_code`. This paragraph has no
 technical claim; it only demonstrates ordinary Markdown formatting.
 
+Use this sample to compare spacing, line lengths, and the contrast of different themes.
+
+<!--more-->
+
 ## Lists
 
 1. Open a sample page.

@@ -13,6 +13,8 @@ Imagine a toy program that stores three messages and prints them in order. This
 sample exists to exercise headings, paragraphs, and syntax highlighting. It does
 not describe a production system or an author's project.
 
+<!--more-->
+
 An event queue provides a convenient shape for a formatting example. A sender
 adds a message, and a reader takes the next message. The imaginary system has no
 persistence, delivery guarantees, or performance results.
