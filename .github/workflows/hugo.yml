@@ -2,7 +2,7 @@ name: Build and deploy
 env:
   # Define tool versions
   # renovate: datasource=github-releases depName=sass/dart-sass
-  DART_SASS_VERSION: 1.106.1
+  DART_SASS_VERSION: 1.108.1
   # renovate: datasource=golang-version depName=go
   GO_VERSION: 1.27.3
   # renovate: datasource=github-releases depName=gohugoio/hugo
