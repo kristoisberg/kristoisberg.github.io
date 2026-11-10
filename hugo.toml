@@ -3,10 +3,12 @@ locale = 'en'
 title = 'WAL of Text'
 timeZone = 'Europe/Tallinn'
 theme = 'PaperMod'
+summaryLength = 80
 
 [params]
 mainSections = ['posts']
 defaultTheme = 'auto'
+disableSpecial1stPost = true
 description = 'Technical writing on WAL of Text. Currently displaying SAMPLE ONLY posts for theme testing.'
 
 [taxonomies]

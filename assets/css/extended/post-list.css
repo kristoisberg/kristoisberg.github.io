@@ -1,0 +1,28 @@
+.post-entry {
+    margin: 0;
+    padding: 2rem 0;
+    background: transparent;
+    border: 0;
+    border-bottom: 1px solid var(--border);
+    border-radius: 0;
+    transition: none;
+}
+
+.post-entry:hover,
+.post-entry:focus-within,
+.post-entry:active {
+    transform: none;
+    border-color: var(--border);
+}
+
+.post-entry:last-of-type {
+    border-bottom: 0;
+}
+
+.post-entry .entry-content {
+    display: block;
+    overflow: visible;
+    margin: 0.75rem 0;
+    font-size: 1rem;
+    -webkit-line-clamp: unset;
+}
