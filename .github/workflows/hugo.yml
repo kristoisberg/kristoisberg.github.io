@@ -8,7 +8,7 @@ env:
   # renovate: datasource=github-releases depName=gohugoio/hugo
   HUGO_VERSION: 0.169.0
   # renovate: datasource=node-version depName=node
-  NODE_VERSION: 24.22.1
+  NODE_VERSION: 26.13.0
 
   # Set the build time zone
   TZ: Europe/Tallinn
