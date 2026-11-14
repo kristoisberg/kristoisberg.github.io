@@ -1,0 +1,12 @@
+{{- if strings.HasPrefix .Destination "mailto:" -}}
+  {{- $address := strings.TrimPrefix "mailto:" .Destination -}}
+  <a data-email="{{ .Destination | base64Encode }}"{{ with .Title }} title="{{ . }}"{{ end }}{{ if eq .PlainText $address }} data-email-label{{ end }}>
+    {{- if eq .PlainText $address -}}
+      {{- $address | replaceRE "@" " [at] " | replaceRE "\\." " [dot] " -}}
+    {{- else -}}
+      {{- .Text | safeHTML -}}
+    {{- end -}}
+  </a>
+{{- else -}}
+  <a href="{{ .Destination }}"{{ with .Title }} title="{{ . }}"{{ end }}>{{ .Text | safeHTML }}</a>
+{{- end -}}

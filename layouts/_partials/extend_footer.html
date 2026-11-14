@@ -1,0 +1,12 @@
+<script>
+    // Deters basic scrapers; bots that execute JavaScript can still read the address.
+    document.querySelectorAll('a[data-email]').forEach(link => {
+        const destination = atob(link.dataset.email);
+        link.href = destination;
+        if (link.hasAttribute('data-email-label')) {
+            link.textContent = destination.slice('mailto:'.length);
+        }
+        link.removeAttribute('data-email');
+        link.removeAttribute('data-email-label');
+    });
+</script>
